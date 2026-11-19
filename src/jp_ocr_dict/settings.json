@@ -1,0 +1,12 @@
+{
+    "theme": "dark",
+    "font_size": "normal",
+    "require_trigger_key": false,
+    "trigger_key": "Alt",
+    "hotkey_toggle_hover": "alt+e",
+    "hotkey_toggle_snip": "alt+s",
+    "show_common_indicators": true,
+    "show_jlpt": true,
+    "show_definitions": true,
+    "ocr_orientation": "auto"
+}

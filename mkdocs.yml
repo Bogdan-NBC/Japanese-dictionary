@@ -1,0 +1,40 @@
+site_name: Japanese OCR Pop-up Dictionary
+site_description: Technical Documentation for Japanese Desktop OCR Pop-up Dictionary
+site_author: Bogdan-NBC
+repo_url: https://github.com/Bogdan-NBC/Japanese-dictionary
+repo_name: Bogdan-NBC/Japanese-dictionary
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: cyan
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Configuration: configuration.md
+  - API Reference: api_reference.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
